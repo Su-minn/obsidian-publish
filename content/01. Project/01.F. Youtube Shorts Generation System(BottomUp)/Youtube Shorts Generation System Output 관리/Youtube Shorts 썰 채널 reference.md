@@ -40,6 +40,16 @@ aliases:
 - [썰챗 - 영상툰](https://www.youtube.com/watch?v=ooM2Q1YG2qs)
 
 
+## 아이디어
+- 역사를 재미있게 썰로 푸는 채널
+	- 모르면 안될 것 같은 (알면 좋은 정보) 역사적 사실 or 사건 or 인물을 재조명
+- 대국민 상식 퀴즈
+	- 모르면 안될 것 같은 (알면 좋은 정보) 상식을 풀기
+
+- 이거 모르면, 끝까지 보셔야합니다 ~ 느낌
+- 한국인이라면, 이 정도는 알아두면 좋을 것 같습니다 ~ 느낌
+
+
 # 연결 문서
 - [[1. Requirements Specification]]
 - [[Youtube Shorts 썰 채널 reference 딥다이브 분석]]
