@@ -52,11 +52,8 @@ aliases:
 | 1   | Unlock AI Agent real power?! Long term memory & Self improving                              | 9849   | 2024-04-16 |                   |
 
 # 출처 (참고 문헌)
-- [AI Jason | Youtube](https://www.youtube.com/@AIJasonZ/videos)
+- AI Jason | Youtube](https://www.youtube.com/@AIJasonZ/videos)
 
-
-# 출처 (참고 문헌)
-- 
 
 # 연결 문서
 - 
