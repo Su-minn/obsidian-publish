@@ -37,17 +37,17 @@ aliases:
 #### 영상 1 : Multi agent framework (ChatDev 사용과, 활용 유즈케이스 소개)
 - [Build AI agent workforce - Multi agent framework with MetaGPT & chatDev](https://www.youtube.com/watch?v=pJwR5pv0_gs)
 ##### 목차
-⏱️ Timestamps
-[0:00](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=0s)Agent intro
-[1:22](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=82s) Multi agent frameworks
-[2:38](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=158s) chatDev
-[3:45](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=225s) Scale your content operation with AI
-[4:27](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=267s) Setup chatDev
-[7:11](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=431s) How to customise
-[9:19](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=559s) Customise roles
-[9:53](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=593s) Customise phases
-[11:50](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=710s) Customise chatChain
-나만의 AI Agent 팀 만들기 : customize (3단계 : 실 사례 적용 설명 (본인의 실제 활용))
+- ⏱️ Timestamps
+- [0:00](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=0s)Agent intro
+- [1:22](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=82s) Multi agent frameworks
+- [2:38](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=158s) chatDev
+- [3:45](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=225s) Scale your content operation with AI
+- [4:27](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=267s) Setup chatDev
+- [7:11](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=431s) How to customise
+- [9:19](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=559s) Customise roles
+- [9:53](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=593s) Customise phases
+- [11:50](https://www.youtube.com/watch?v=pJwR5pv0_gs&t=710s) Customise chatChain
+- 나만의 AI Agent 팀 만들기 : customize (3단계 : 실 사례 적용 설명 (본인의 실제 활용))
 ##### 일자
 - 2023.9.8
 ##### 조회수
@@ -151,21 +151,21 @@ AI 마케팅 에이전시를 만들고자 합니다. 여기에는 작업 범위�
 - 라고 설명하고, 이후에 #2, #3 과 같이 에피소드를 추가하지는 않음
 - 생각보다 조회수가 잘 안나와서로 보임
 ##### 목차
-⏱️ Timestamps
-[0:00](https://www.youtube.com/watch?v=yhBiVrigWNI&t=0s) Agent intro
-[1:21](https://www.youtube.com/watch?v=yhBiVrigWNI&t=81s) Use case - AI community mod
-[2:02](https://www.youtube.com/watch?v=yhBiVrigWNI&t=122s) Challenges
-[2:58](https://www.youtube.com/watch?v=yhBiVrigWNI&t=178s) Open Source Project
-[3:59](https://www.youtube.com/watch?v=yhBiVrigWNI&t=239s) Initial setup
-[5:22](https://www.youtube.com/watch?v=yhBiVrigWNI&t=322s) Customise personality
-[6:37](https://www.youtube.com/watch?v=yhBiVrigWNI&t=397s) Setup agent & memory
-[10:10](https://www.youtube.com/watch?v=yhBiVrigWNI&t=610s) Give agent knowledge
-[15:42](https://www.youtube.com/watch?v=yhBiVrigWNI&t=942s) Test agent knowledge
-[16:16](https://www.youtube.com/watch?v=yhBiVrigWNI&t=976s) Schedule agent task
-[17:14](https://www.youtube.com/watch?v=yhBiVrigWNI&t=1034s) Advanced scraping
-[18:40](https://www.youtube.com/watch?v=yhBiVrigWNI&t=1120s) Agent gen research report
-[19:31](https://www.youtube.com/watch?v=yhBiVrigWNI&t=1171s) Agent task scheduler
-[22:44](https://www.youtube.com/watch?v=yhBiVrigWNI&t=1364s) Deploy AI agent moderator
+- ⏱️ Timestamps
+- [0:00](https://www.youtube.com/watch?v=yhBiVrigWNI&t=0s) Agent intro
+- [1:21](https://www.youtube.com/watch?v=yhBiVrigWNI&t=81s) Use case - AI community mod
+- [2:02](https://www.youtube.com/watch?v=yhBiVrigWNI&t=122s) Challenges
+- [2:58](https://www.youtube.com/watch?v=yhBiVrigWNI&t=178s) Open Source Project
+- [3:59](https://www.youtube.com/watch?v=yhBiVrigWNI&t=239s) Initial setup
+- [5:22](https://www.youtube.com/watch?v=yhBiVrigWNI&t=322s) Customise personality
+- [6:37](https://www.youtube.com/watch?v=yhBiVrigWNI&t=397s) Setup agent & memory
+- [10:10](https://www.youtube.com/watch?v=yhBiVrigWNI&t=610s) Give agent knowledge
+- [15:42](https://www.youtube.com/watch?v=yhBiVrigWNI&t=942s) Test agent knowledge
+- [16:16](https://www.youtube.com/watch?v=yhBiVrigWNI&t=976s) Schedule agent task
+- [17:14](https://www.youtube.com/watch?v=yhBiVrigWNI&t=1034s) Advanced scraping
+- [18:40](https://www.youtube.com/watch?v=yhBiVrigWNI&t=1120s) Agent gen research report
+- [19:31](https://www.youtube.com/watch?v=yhBiVrigWNI&t=1171s) Agent task scheduler
+- [22:44](https://www.youtube.com/watch?v=yhBiVrigWNI&t=1364s) Deploy AI agent moderator
 ##### 일자
 - 2023.9.27
 ##### 조회수
@@ -228,9 +228,9 @@ AI 모더레이터가 AI 트렌드와 뉴스를 공유하도록 하기 위해, �
 
 마지막 단계는 에이전트를 클라우드 서비스에 배포하는 것입니다. 이렇게 하면 컴퓨터를 계속 켜두지 않아도 에이전트가 24시간 작동할 수 있습니다. 여러 가지 플랫폼이 있지만, 제가 사용하는 것은 `Render`입니다. 먼저 `requirements.txt` 파일에 필요한 라이브러리를 추가합니다. 그런 다음 프로젝트를 GitHub 계정에 업로드하고, Render에서 새로운 웹 서비스를 생성합니다. 환경 변수를 설정하고, python main.py 명령어로 서비스를 시작합니다. 무료 버전을 사용하는 경우, 비활성화 상태가 되지 않도록 `Uptime Robot`과 같은 모니터링 서비스를 사용할 수 있습니다.
 이 모든 과정이 완료되면, 디스코드 커뮤니티를 위한 완전한 AI 모더레이터가 준비됩니다. 이 AI 모더레이터는 24시간 사용자의 메시지에 응답하고, 깊은 도메인 지식을 가지며, 최신 AI 트렌드와 뉴스를 공유할 수 있습니다. 초기 단계의 AI 작업자이지만, 커뮤니티와의 소통에서 좋은 성과를 보이고 있습니다. 여러분도 제 디스코드에 참여해 피드백을 주시면 감사하겠습니다. 이 시리즈는 AI 에이전트 구축에 대한 내용을 계속 다룰 예정이니, 흥미롭다면 구독 부탁드립니다. 감사합니다, 다음에 뵙겠습니다.
-- 
+
 ### CrewAI
-#### 영상 1 : How I Made AI Assistants Do My Work For Me: CrewAI
+#### 영상 1 : How I Made AI Assistants Do My Work For Me: CrewAI **(추천)**
 [How I Made AI Assistants Do My Work For Me: CrewAI](https://www.youtube.com/watch?v=kJvXT25LkwA)
 ##### 개요
 - 스토리텔링 관점에서도 꼭 한 번 봐야할 영상
@@ -284,15 +284,16 @@ AI 모더레이터가 AI 트렌드와 뉴스를 공유하도록 하기 위해, �
 
 이 비디오에서는 복잡하고 까다로운 문제를 해결하기 위해 자신만의 스마트 AI 에이전트 팀을 구성하는 방법을 보여드리겠습니다. 또한 이메일이나 Reddit 대화와 같은 실제 데이터에 접근할 수 있게 함으로써 이들을 더욱 지능적으로 만드는 방법도 시연하겠습니다. 마지막으로, 로컬에서 모델을 실행함으로써 회사에 수수료를 지불하거나 개인 정보를 노출하는 것을 피하는 방법을 설명하겠습니다. **로컬 모델과 관련해서는 실제로 몇 가지 놀라운 발견을 했는데, 이에 대해서는 나중에 조금 이야기하겠습니다.**
 ###### [3:18 - 8:24] Startup example : 1단계 - agent, task 정의 (마케터, 기술 전문가, 사업 개발 전문가)
-- Agent 정의
+
+**Agent 정의**
 이제 내 스타트업을 도와줄 세 명의 에이전트를 정의해 봅시다. 여기에는 실제 코딩이 없고 그저 좋은 프롬프팅일 뿐입니다. 따라서 세 명의 에이전트를 다음과 같이 인스턴스화해 봅시다.
 각 에이전트는 특정 역할을 가져야 하며, 나는 내 에이전트 중 하나가 시장 조사 전문가가 되기를 원하므로 이 특정 역할을 할당할 것입니다. 또한 각 에이전트는 명확하게 정의된 목표를 가져야 합니다. 내 경우에는 이 조사 전문가 에이전트가 내 제품에 대한 실질적인 수요가 있는지 이해하는 데 도움을 주고 가능한 한 가장 넓은 대상 고객에 도달하는 방법에 대한 지침을 제공하기를 원합니다.
 마지막으로 내 에이전트를 위한 백스토리가 필요합니다. 이는 에이전트에게 이 역할이 무엇인지 추가로 설명하는 것입니다. 마지막으로 verbose를 True로 설정할 수 있는데, 이는 에이전트가 상세한 출력을 생성할 수 있게 합니다. 이 매개변수를 true로 설정함으로써 내 에이전트들이 서로 협력할 수 있도록 허용하고 있습니다. 그래서 이 에이전트를 마케터로 저장하고 다른 두 에이전트에 대해서도 동일한 작업을 수행할 것입니다. 결과적으로 내 AI 에이전트 팀에는 마케터, 기술 전문가, 비즈니스 개발 전문가가 있을 것입니다.
 
-- Task 정의
+**Task 정의**
 이 부분이 완료되면 작업을 정의할 차례입니다. 작업은 항상 구체적이고 결과 지향적이어야 합니다. 이 경우에는 예를 들어 상세한 비즈니스 계획이나 시장 분석이 될 수 있습니다. 에이전트는 청사진으로 정의되어야 하며 다양한 목표에 재사용될 수 있어야 합니다. 하지만 작업은 항상 최종적으로 얻고자 하는 특정 결과로 정의되어야 합니다. 작업에는 항상 작업의 내용을 설명하는 설명이 있어야 하며, 또한 각 특정 작업에 할당될 에이전트가 항상 있어야 합니다. 내 경우에는 세 가지 특정 작업을 원합니다. 내 비즈니스 아이디어는 크록스라는 상징적인 신발이 스위스 치즈처럼 보이지 않도록 우아한 모양의 플러그를 만드는 것입니다. 첫 번째 작업은 마케터 에이전트에 할당할 것이며, 이 에이전트는 이 초cool한 플러그에 대한 잠재적 수요를 분석하고 가능한 가장 큰 고객 기반에 도달하는 방법을 조언할 것입니다. 다른 작업은 기술 전문가에게 주어질 것이며, 이 에이전트는 이 플러그를 만드는 방법에 대한 분석과 제안을 제공할 것입니다. 마지막 작업은 비즈니스 컨설턴트에게 주어질 것이며, 이 에이전트는 모든 사람의 보고서를 고려하여 비즈니스 계획을 작성할 것입니다.
 
-- Crew Team 생성 후 결과 확인
+**Crew Team 생성 후 결과 확인**
 모든 에이전트와 작업을 정의했으므로 마지막 단계로 에이전트의 크루 또는 팀을 인스턴스화할 것입니다. 모든 에이전트와 작업을 포함시키고 프로세스를 정의할 것입니다. 프로세스는 이 에이전트들이 어떻게 함께 작업하는지를 정의하며, 현재는 순차적 프로세스만 가능합니다. 이는 첫 번째 에이전트의 출력이 두 번째 에이전트의 입력이 되고, 그것이 다시 세 번째 에이전트의 입력이 된다는 것을 의미합니다. 이제 이 마지막 코드 줄로 내 크루가 작업하도록 할 것입니다. 또한 모든 결과가 콘솔에 출력되는 것을 보고 싶습니다. 이것이 가장 기본적인 예시이며 실제로 crew AI가 어떻게 작동하는지 이해하는 가장 좋은 방법입니다. 이 결과가 그리 인상적이지 않을 것으로 예상합니다. 사실 이 결과가 ChatGPT에게 비즈니스 계획을 작성해 달라고 요청하는 것보다 조금 더 나을 것이라고 생각하지만, 한번 봅시다.
 
 자, 이제 결과가 나왔습니다. 10개의 항목이 있는 비즈니스 계획, 5개의 비즈니스 목표, 그리고 시간 일정이 있습니다. 3D 프린팅 기술과 사출 금형, 레이저 커팅을 사용해야 하며, 기계 학습 알고리즘을 적용하여 고객 선호도를 분석하고 미래 구매 행동을 예측해야 한다고 합니다. 이 에이전트가 내 비즈니스 아이디어를 정말 진지하게 받아들인 것 같습니다. 심지어 지속 가능하거나 재활용 재료도 있네요. 좋습니다!
@@ -361,20 +362,31 @@ OpenHermes와 NeuHermes도 비슷한 출력을 보였습니다. 이 모든 출�
 - 108,584
 #### 영상 3 : CrewAI Tutorial: Complete Crash Course for Beginners
 - [CrewAI Tutorial: Complete Crash Course for Beginners](https://www.youtube.com/watch?v=sPzc6hMg7So)
-	- 조회수 : 159,162
-	- 일자 : 2024.2.10
-	- 조금 더 상세한 튜토리얼 + Hands-on(공식 제공 hands-on 사용(Trip Planner, Stock Analysis))
-### Agent Framework의 반대의견
+##### 개요
+- 조금 더 상세한 튜토리얼 + Hands-on(공식 제공 hands-on 사용(Trip Planner, Stock Analysis))
+- 튜토리얼이 조회수가 상대적으로 잘 나오는 경향이 있어보임
+- CrewAI가 트래픽을 탈 시기와 겹쳐서도 있다고 보임
+##### 조회수
+- 159,162
+##### 일자
+- 2024.2.10
+
+### Agent Framework의 반대 의견 (참고)
 - [Why Agent Frameworks Will Fail (and what to use instead)](https://www.youtube.com/watch?v=KY8n96Erp5Q)
-	- 일자 : 2024.6.28
-	- 조회수 : 14,956
-	- 내용 : 실제 구축하려는 파이프라인, 해결하려는 문제에 비해 agent 세팅을 너무 복잡하게한다
-		- 오버엔지니어링 및 비용 낭비의 측면이 강하다
-		- 단순 순차 실행 
-	- Insight
-		- 해결하려는 Problem에 Agent가 꼭 필요한지, agent로만 해결할 수 있는 문제인지 명확하게 할 필요가 있다
-		- 확정적인 문제보다, 확률적인 문제(불확실성) 접근 시에 agent가 효용성이 있고,
-		  research가 대표적인 영역이다
+##### 개요
+- '실제 구축하려는 파이프라인, 해결하려는 문제에 비해 agent 세팅을 너무 복잡하게한다' 는 의견
+	- 오버엔지니어링 및 비용 낭비의 측면이 강하다
+	- 단순 순차 실행 
+- Insight
+	- 해결하려는 Problem에 Agent가 꼭 필요한지, agent로만 해결할 수 있는 문제인지 명확하게 할 필요가 있다
+	- 확정적인 문제보다, 확률적인 문제(불확실성) 접근 시에 agent가 효용성이 있고,
+	  research가 대표적인 영역이다
+- 조회수는 낮은 편이지만, problem-solving 차원에서 참고할만한 접근이자 의견
+##### 일자
+- 2024.6.28
+##### 조회수
+- 14,956
+
 
 
 
