@@ -140,7 +140,8 @@ aliases:
 - a) LangChain 기반의 LangGraph
 	- 오픈소스
 	- graph 기반
-	- 기존 LangChain, LangSmith와 통합이 용이하고, 비쥬얼라이제이션을 통한 구조를 보기 좋아서,
+	- 기존 LangChain, LangSmith와 통합이 용이하고
+	- 비쥬얼라이제이션을 통한 flow 확인에 용이
 - b) CrewAI
 	- 오픈소스
 	- 특징 : 좀 더 쉽게 구축 가능
@@ -151,6 +152,7 @@ aliases:
 
 - 이후 보여드릴 저희의 use case는 AutoGen을 통해 구현했기에,
   오늘은 autogen에 대해 소개하고, 다른 도구들은 기회가 있으면 이후 영상으로 소개드리겠다.
+- AutoGen은 한국 소개 자료 찾기가 힘든 반면, CrewAI와 LangGraph는 뛰어난 능력을 가지신 분들의 소개가 있으니 참고해보셔도 좋을 것 같다. (테디노트(LangGraph), 노마드코더(CrewAI))
 
 ### 3) 본격 들어가기 전에, 앤드류응의 Agentic Design Pattern 언급
 - [AI Agentic Design Patterns with AutoGen | DeepLearning.AI](https://learn.deeplearning.ai/courses/ai-agentic-design-patterns-with-autogen/lesson/1/introduction)
