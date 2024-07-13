@@ -155,12 +155,13 @@ aliases:
 - AutoGen은 한국 소개 자료 찾기가 힘든 반면, CrewAI와 LangGraph는 뛰어난 능력을 가지신 분들의 소개가 있으니 참고해보셔도 좋을 것 같다. (테디노트(LangGraph), 노마드코더(CrewAI))
 
 ### 3) 본격 들어가기 전에, 앤드류응의 Agentic Design Pattern 언급
-- [AI Agentic Design Patterns with AutoGen | DeepLearning.AI](https://learn.deeplearning.ai/courses/ai-agentic-design-patterns-with-autogen/lesson/1/introduction)
+> 반복적으로 등장하는 문제에 Multi Agent을 잘 적용하기 위한 유용한 Tip
+- 참고 영상 : [AI Agentic Design Patterns with AutoGen | DeepLearning.AI](https://learn.deeplearning.ai/courses/ai-agentic-design-patterns-with-autogen/lesson/1/introduction)
 	- Reflection
 	- Tool Use
 	- Planning
 ### 4) AutoGen Hands-on : 1단계 - small wow
-- [AI Agentic Design Patterns with AutoGen | DeepLearning.AI](https://learn.deeplearning.ai/courses/ai-agentic-design-patterns-with-autogen/lesson/1/introduction)
+- [Autogen Hands-on Notebook | Github](https://github.com/microsoft/autogen/tree/main/notebook)
 ### 5) AutoGen Hands-on 의 구성요소에 대한 간단한 설명 : 2단계 - 각 구성요소 설명
 - [AI Agentic Design Patterns with AutoGen | DeepLearning.AI](https://learn.deeplearning.ai/courses/ai-agentic-design-patterns-with-autogen/lesson/1/introduction)
 ### 6) AutoGen 실 적용 사례 : 3-1단계 - research agent worflow에 통합
