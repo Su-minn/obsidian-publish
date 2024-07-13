@@ -61,7 +61,7 @@ aliases:
 		- Reflection, Tool Use, Plannig, Multi-agent Collaboration
 
 ## 시나리오 개요
-### Intro : 사람들의 상황에 대한 공감과 이로부터의 문제제기
+### 0) Intro : 사람들의 상황에 대한 공감과 이로부터의 문제제기
 - 많은 분들이 다양한 방식으로 언어 모델, ChatGPT, Claude와 같은 SaaS, 혹은 노코드(make)와 함께 Agent를 결합하는 등 AI를 사용하고 있다.
 - 응답에 대한 대답을 받는 ChatGPT와 같은 서비스를 사용하셨거나, 단일 API 호출을 통한 답변을 받아오신 분들은, 이와 유사한 문제를 경험하셨을 것이다.
 - (아래 KeyPoints의 problem 제시) 
