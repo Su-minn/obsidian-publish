@@ -126,9 +126,9 @@ aliases:
 	- multi-agent란 여러 agent를 통해 ~~ 하는 거다
 	- CrewAI 나 AutoGen 설명 참고 (쉬운 비유로 설명했으면 함)
 
-#### feedback
-- 정확한 문제가 뭐야?
-- multi-agent는 무엇을 해결해준다는 거야?
+#### Multi agents의 Why, What 관점에서 아래 내용이 더 제대로 반영되어야 함
+- 정확한 문제가 뭐야? (problem)
+- multi-agent는 무엇을 해결해준다는 거야? (solution)
 	- 이 영상을 보면 무엇을 얻을 수 있다는 거야?
 
 ### 2) Multi-Agent를 구축하는 방법 (How Multi-agent?)
