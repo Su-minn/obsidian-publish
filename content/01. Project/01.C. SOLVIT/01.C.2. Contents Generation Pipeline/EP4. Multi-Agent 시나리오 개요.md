@@ -200,4 +200,5 @@ aliases:
 - 
 
 # 연결 문서
-- 
+- [[Multi-Agent 및 Agentic Workflow 정리]]
+	- 개념 및 프레임워크 부분은 해당 노트에 정리된 내용을 기반으로 작성하였다
