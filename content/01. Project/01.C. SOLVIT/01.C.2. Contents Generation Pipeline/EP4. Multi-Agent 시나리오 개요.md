@@ -149,6 +149,8 @@ aliases:
 - c) AutoGen
 	- MS에서 만든 오픈소스로, 에이전트간 계층 구조 등 세부 조정하기에 좋음
 	- GUI 형태의 AutoGen Studio도 있으니, 코드에 익숙하지 않은 분들도 찾아보시면 노코드 형태로 시도해보실 수 있을 것
+- d) 그 외
+	- llama-index, 그 외 LangFlow 등 노코드 툴로도 구축 가능하며, custom 으로 직접 만들 수도 있다
 
 - 이후 보여드릴 저희의 use case는 AutoGen을 통해 구현했기에,
   오늘은 autogen에 대해 소개하고, 다른 도구들은 기회가 있으면 이후 영상으로 소개드리겠다.
@@ -163,8 +165,8 @@ aliases:
 ### 4) AutoGen Hands-on : 1단계 - small wow
 - [Autogen Hands-on Notebook | Github](https://github.com/microsoft/autogen/tree/main/notebook)
 ### 5) AutoGen Hands-on 의 구성요소에 대한 간단한 설명 : 2단계 - 각 구성요소 설명
-- [AI Agentic Design Patterns with AutoGen | DeepLearning.AI](https://learn.deeplearning.ai/courses/ai-agentic-design-patterns-with-autogen/lesson/1/introduction)
-### 6) AutoGen 실 적용 사례 : 3-1단계 - research agent worflow에 통합
+- 참고 영상 : [AI Agentic Design Patterns with AutoGen | DeepLearning.AI](https://learn.deeplearning.ai/courses/ai-agentic-design-patterns-with-autogen/lesson/1/introduction)
+### 6) AutoGen 실 적용 사례 : 3-1단계 - research agent workflow에 통합
 - Problem) workflow가 분절된다 and 일관된 형식이나 퀄리티의 답변이 나오지않는다
 - Solution) multi collaboration 디자인 패턴이 적용되면 개선된다
 	- 1) 각 agent를 나누어서 하나의 역할만 담당하도록하면,
@@ -176,11 +178,11 @@ aliases:
 			- ex 2) 특정 작업은 파인튜닝 LLM(Agent) 사용하여 task 수행
 	- 2) 각 agent를 나누어서 하나의 역할만 담당하도록하면, 더 나은 성능을 얻을 수 있다
 		- 한 agent에게 여러 도구를 주는 것보다, 여러 agent에게 하나씩의 도구를 주는 것이 더 나은 결과를 내는 것으로 여러 연구를 통해 알려져있다
-### 7) AutoGen 실 적용 사례 : 3-2단계 - AI Outfit worflow 에 통합
-- Problem) 한 번에 좋은 결과를 내지 못한다
+### 7) AutoGen 실 적용 사례 : 3-2단계 - AI Outfit workflow 에 통합
+- Problem) 한 번에 좋은 결과를 내지 못한다 (사진 디테일에 문제가 있음)
 - Solution) reflection 디자인 패턴을 적용하면, 성능이 올라간다
 ### 8) Outro : 여러 활용 사례를 보여주며 상상력 자극
-- 이 외에도 이러한 problem 들을 해결할 수 있는 접근(solution)이다
+- Multi-agents는 이 외에도 이러한 problem 들을 해결할 수 있는 접근(solution)이다
 	- github 오픈소스 예시 데모만 보여주기
 - 여러분의 문제에대한 활용 사례와, 적용 아이디어가 궁금하다
 - 공유해주시면 감사하겠습니다.
