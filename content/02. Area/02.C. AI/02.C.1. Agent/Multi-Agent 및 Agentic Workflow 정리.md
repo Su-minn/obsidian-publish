@@ -11,7 +11,7 @@ aliases:
 # Context
 - [[EP4. Multi-Agent 시나리오 개요]]를 작성하는 과정에서,
   Multi-agent 및 Agentic Design Pattern에 대해서 정리하였다
-
+요
 # Content
 ## Multi-Agent 분류 (Ver. 24.07.14) by ChatDev(칭화대 Lab)
 - Multi-agent system은 현재 **'사람의 외부 지시 하에서 구체적인 목표를 달성하도록 디자인되었는가'** 에 따라 2가지로 분류된다
