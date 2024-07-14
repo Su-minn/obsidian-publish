@@ -123,8 +123,9 @@ aliases:
 	- 추론마다 다른 LLM 사용 : 쉬운 질문은 값이 싼 LLM, 어려운 질문은 비싸고 성능좋은 LLM
 
 - multi-agent란?
-	- multi-agent란 여러 agent를 통해 ~~ 하는 거다
-	- CrewAI 나 AutoGen 설명 참고 (쉬운 비유로 설명했으면 함)
+	- 둘 이상의 에이전트가 협력하여 복잡한 태스크를 수행하는 패러다임으로,
+	  AI 에이전트들 간의 역할 분담과 다양한 관점에서의 피드백을 통해 복잡한 문제를 효과적으로 해결할 수 있는 가능성을 제시하는 접근 방식
+	- 즉, 단일 agent가 수행하지 못하는 특정 일들을 해낼 수 있도록 하는 프레임워크
 
 #### Multi agents의 Why, What 관점에서 아래 내용이 더 제대로 반영되어야 함
 - 정확한 문제가 뭐야? (problem)
@@ -159,9 +160,13 @@ aliases:
 ### 3) 본격 들어가기 전에, 앤드류응의 Agentic Design Pattern 언급
 > 반복적으로 등장하는 문제에 Multi Agent을 잘 적용하기 위한 유용한 Tip
 - 참고 영상 : [AI Agentic Design Patterns with AutoGen | DeepLearning.AI](https://learn.deeplearning.ai/courses/ai-agentic-design-patterns-with-autogen/lesson/1/introduction)
-	- Reflection
-	- Tool Use
-	- Planning
+	- 1) Reflection
+	- 2) Tool Use
+	- 3) Planning
+	- 4) Multi-agent Collaboration
+
+- 이러한 디자인 패턴이 어떻게 적용되는 지는, 이후 실 적용 사례를 통해 보여드리겠다
+
 ### 4) AutoGen Hands-on : 1단계 - small wow
 - [Autogen Hands-on Notebook | Github](https://github.com/microsoft/autogen/tree/main/notebook)
 ### 5) AutoGen Hands-on 의 구성요소에 대한 간단한 설명 : 2단계 - 각 구성요소 설명
@@ -184,6 +189,9 @@ aliases:
 ### 8) Outro : 여러 활용 사례를 보여주며 상상력 자극
 - Multi-agents는 이 외에도 이러한 problem 들을 해결할 수 있는 접근(solution)이다
 	- github 오픈소스 예시 데모만 보여주기
+	- AI Agents List 참고 : [Awesome AI Agents | Github](https://github.com/e2b-dev/awesome-ai-agents)
+		- [[EP4. Multi-Agent 시나리오 준비를 위한 분석]]
+
 - 여러분의 문제에대한 활용 사례와, 적용 아이디어가 궁금하다
 - 공유해주시면 감사하겠습니다.
 
