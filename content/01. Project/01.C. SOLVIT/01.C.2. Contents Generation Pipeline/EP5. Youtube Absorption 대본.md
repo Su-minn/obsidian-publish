@@ -6,7 +6,84 @@ tags:
 aliases:
 ---
 # Context
+## 가설
+- 'Key Message를 명확하게 전달하면 대중에게 더 소구될 것이다'
+- '우리의 익스텐션을 실제 사용해보고 싶다는 사람이 생길 것이다'
+- '기술에 대한 문제 - 해결 구조가 아닌, real-life에 대한 문제 - 해결'
 
+## Backlog
+- Self-Discovery의 내용을 우리 problem에 맞게 변형 적용 (차용하겠다)
+- S(elect) -> A(dapt) -> I(mplement) 구조에서,
+	- 1) 우리는 문제가 이미 정해져 있으니(기술 정보 영상으로 한정) SA를 먼저 합침
+	- 2) 1)과 I를 합침 (속도, 성능과의 trade-off 관점에서 1스텝으로 통합하기)
+
+
+- LLM Classification
+	- 이전에는 아래와 같이 Instructor 를 사용해야했음
+		- https://www.youtube.com/watch?v=yMXxmdwndsU
+	- 이제는, Structured Output 사용하면 됨
+		- https://www.youtube.com/watch?v=fuMKrKlaku4
+
+
+## 구현 User Flow
+### 0) 사전 준비 사항 (**노션**)
+- **노션**에 적용할 Question 종류들이 (reasoning modules) 들어있음
+#### Why Notion?
+- Notion을 통해 Reasoning modules 을 관리할 수 있다면, 노코드 차원에서 의미가 있다
+- Notion은 admin으로의 역할을 한다
+#### feasibility Check
+- [x] Notion의 DB를 가져올 수 있는가?
+### 1) 영상 발견 (제목 정도만 알고(기술 영상 이구나), 세부 내용은 모름)
+- 빠르게 구조를 확인하고 싶음
+- why?
+	- 1-1) 전체를 볼 시간이 없는 경우
+	- 1-2) 풀 영상을 보기전, 내가 원하는 내용이 들어 있는 영상인지 확인하기 위해
+	  (어그로 패싱)
+### 2) 크롬 익스텐션 (단축키 활용) 실행
+- 2-1) (백단) 노션의 Question Module 중 적합한 SELECT
+	- Problem : Multi-classes classification 문제
+	- `Selected Lists = M(transcript | question module Lists)`
+		- INPUT : 대본 transcript, question module Lists
+		- Output : Selected Lists -> List 형태로 반환
+			- ex) `[0, 1, 3, 5]`
+- 2-2) Selected List를 기반으로 Implementation
+	- Output : Key-value 형태
+- 2-3) Implementation 기반으로 Report 작성
+	- Input : Key-value 형태
+	- Output : Markdown의 Report 형태
+### 3) 내가 주로 갖고 있는 질문(or 프레임워크) 리스트 중 영상에 포함되는 세부 질문에 대한 응답 반환
+- P-S 구조
+- 사용된 기술
+- Insight
+- (기존 지식 창고와의 연결(RAG 필요)) - 언급만
+	- 연관 문서
+	- RAG 연결
+- (대체재에 대한 조사 (or Critical Analysis)) - 언급만
+	- Research Agent 연결
+		- ex) 인테리어 제품 소개, '그래서 이거 구매 가능하냐?' - research agent 와 연결이 필요
+
+### 4) 추가로 전송하고 싶은 경우, 나의 Insight 입력란에 추가 입력하고, **Discord** 채널에 전송하기
+- 영상 본 이후에 전달하고 싶은 내용을 공유하는 UseCase 해소
+	- 영상 전-중-후 파이프라인 중 '후'에 해당
+
+### + 알파)
+- 크롬 익스텐션 로고를 좀 이쁘게하기
+
+## Claude Project Prompt
+```prompt
+위의 SOLVIT 가치관과 스토리 텔링 가이드라인을 기반으로 다음 영상의 대본 시나리오를 작성하고자해.
+
+주제 : 자신만의 관점(목적성)을 바탕으로 AI를 적용하여 유튜브 영상 내용을 요약하면 효과적일 것이다.
+
+소재 : Youtube를 나만의 '관점'으로 요약하고 정리할 수 있는 크롬익스텐션 개발
+
+- 시나리오 작성 시, 마크다운 형태로 각 구분된 chapter가 존재해야해.
+- 각 챕터마다 어떠한 의도로 이렇게 표현했고 대본을 작성했는지 이유도 함께 제시해줘야해.
+- 6 ~ 8 에 속하는 구현 1단계, 2단계, 3단계는 개발 과정을 보여주는 부분으로, 대본에서는 제외해야해.
+    
+<대본 개요>
+{대본 내용}
+```
 
 # Content
 
@@ -23,11 +100,28 @@ Key Message : 당신의 관점(목적성)을 바탕으로, AI를 적용하고 �
 - 이 영상을 30초 안에 효과적으로 요약해서 볼 수 있다면,
   시간을 아끼고 생산성을 폭발시킬 수 있지 않을까요?
 
+---
+안녕하세요, 문제를 IT로 해결한다, 솔브잇입니다.
+여러분, 혹시 이런 경험 있으신가요?
+
+정보가 가득한 40-50분짜리 유튜브 영상을 보려다가, 시간이 없어서 포기한 경험.
+아니면 긴 영상을 다 보고 나서 "아, 내가 원하는 정보는 없었네..."라고 실망한 적은요?
+
+만약 그 긴 영상을 30초 안에 효과적으로 요약할 수 있다면 어떨까요?
+시간도 아끼고, 원하는 정보만 쏙쏙 얻을 수 있다면 정말 좋지 않을까요?
+
 ### 1) Competitors : 니즈를 충족하기 위해 등장하는 많은 유튜브 요약 서비스
 > 표면적인 니즈를 충족시켜주는 것'처럼 보이는' 기존 서비스들
 - 실제로 이러한 니즈가 많다는 것을 반증하듯이, 
   (예시. Lilys)와 같은 훌륭한 웹서비스를 포함하여, Youtube Summary 크롬 익스텐션 등 정말 많은
   요약 서비스와, 유튜브 요약 튜토리얼(외국 사례)들이 등장하고 있습니다.
+
+---
+실제로 이런 니즈를 충족시키기 위한 서비스들은 많이 나와 있고, 지금도 새로운 서비스들이 등장하고 있습니다.
+예를 들어, Lilys.ai 같은 웹 서비스부터 'YouTube Summary with ChatGPT' 같은 크롬 익스텐션까지 다양한 요약 서비스들이 존재합니다.
+
+이런 서비스들은 AI를 이용해 영상의 내용을 빠르게 요약해주죠. 언뜻 보면 우리의 시간을 아껴주는 훌륭한 도구 같아 보입니다. 하지만 과연 이것만으로 충분할까요?
+
 #### 참고 자료
 - SaaS
 	- Lilys.ai
@@ -118,4 +212,20 @@ Key Message : 당신의 관점(목적성)을 바탕으로, AI를 적용하고 �
 - 
 
 # 연결 문서
-- 
+## Self-Discover Paper Approach 적용하기
+- [Self-Discover: Large Language Models Self-Compose Reasoning Structures (24.02) | Arxiv](https://arxiv.org/abs/2402.03620)
+	- Google Deepmind Paper
+
+### 정리 예정
+- [LLM의 추론 능력 높이기 : Self Discover | Notion](https://blog.sionic.ai/self-discover)
+- https://linknf.com/entry/%EA%B5%AC%EA%B8%80-LLM%EC%9D%84-%EC%9C%84%ED%95%9C-%EC%9E%90%EA%B8%B0-%EB%B0%9C%EA%B2%AC-self-discover-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0
+- https://ai.atsit.in/posts/6860860808/
+- https://tilnote.io/pages/65d56c9dc8ecac8926cdfcbc
+- https://www.youtube.com/watch?v=zKw_qsXIF84
+- https://ostin.tistory.com/446
+- https://ostin.tistory.com/587
+- https://github.com/kailashsp/SELF-DISCOVER
+- https://jrodthoughts.medium.com/meet-self-discover-google-deepminds-new-method-for-llm-reasoning-4f3fdc547926
+- https://brunch.co.kr/@heir480/2759
+- https://blog.naver.com/horajjan/223350450399
+- https://discuss.pytorch.kr/t/2024-02-05-02-11-ml-top-ml-papers-of-the-week/3497
