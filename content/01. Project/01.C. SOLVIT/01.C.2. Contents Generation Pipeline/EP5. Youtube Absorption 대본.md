@@ -42,7 +42,7 @@ aliases:
 ### 2) 크롬 익스텐션 (단축키 활용) 실행
 - 2-1) (백단) 노션의 Question Module 중 적합한 SELECT
 	- Problem : Multi-classes classification 문제
-	- `Selected Lists = M(transcript | question module Lists)`
+	- `Selected Lists = M(transcript | question module Lists | meta-prompt)`
 		- INPUT : 대본 transcript, question module Lists
 		- Output : Selected Lists -> List 형태로 반환
 			- ex) `[0, 1, 3, 5]`
