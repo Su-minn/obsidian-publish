@@ -135,7 +135,7 @@ Key Message : 당신의 관점(목적성)을 바탕으로, AI를 적용하고 �
 해외 영상 댓글을 보면 아래와 같이 timestamp와 함께 요약한 내용도 많이 보셨을 겁니다.
 - 시각화 : 해외 영상 댓글에 정리한 내용 (아이디만 모자이크?)
 - 참고 자료 : [How I Made AI Assistants Do My Work For Me: CrewAI](https://www.youtube.com/watch?v=kJvXT25LkwA)
-![[Pasted image 20240811225752.png]]
+![](https://i.imgur.com/nUcoUGe.png)
 
 (특히 국내에서 만드신 서비스인 LilysAI는 사용성에 감탄을 했습니다.
 영상을 글로 노트화 해서 핵심 주제를 확인하고 살펴볼 때는 최고의 서비스 중 하나라는 생각이 듭니다.)
@@ -159,8 +159,8 @@ Key Message : 당신의 관점(목적성)을 바탕으로, AI를 적용하고 �
 	  chatGPT 팝업이 뜨면서 아래 프롬프트가 자동 입력되고 엔터가 쳐짐
 	- 1) 영어로 'summarize the following in 5 bullet points' 가 입력되며 영어 로 요약된 문제
 	- 2) 영상의 내용을 온전히 파악하기 어려운 5 bullet points 요약
-![[Pasted image 20240811231602.png]]
-![[Pasted image 20240811231616.png]]
+![](https://i.imgur.com/F8FVwdW.png)
+
 
 #### 문제 정의
 - 왜 영상을 잘 요약해서봐도 유용함을 못느끼는지 스스로 곱씹어보면서,
@@ -184,7 +184,7 @@ Key Message : 당신의 관점(목적성)을 바탕으로, AI를 적용하고 �
 
 시각화
 - 아래 워딩은 조금씩 수정해도 좋을 듯
-![[Pasted image 20240811233038.png]]
+![](https://i.imgur.com/4UU3tY6.png)
 
 #### 유저 시나리오 설명
 
@@ -200,8 +200,7 @@ Key Message : 당신의 관점(목적성)을 바탕으로, AI를 적용하고 �
 - 이러한 시나리오로 실제 사용할 수 있겠다고 그림을 그려봤습니다.
 
 - FLOW 시각화
-![[Pasted image 20240811233542.png]]
-
+![](https://i.imgur.com/BlUL6Hu.png)
 
 - 시각화 : 최종 결과물에 대한 user flow도 간단하게 섞어서 보여주면 좋을 듯
 	- 가능한지는 영상화해봐야 알 것 같기도.. 잘 부탁..
@@ -221,9 +220,10 @@ Key Message : 당신의 관점(목적성)을 바탕으로, AI를 적용하고 �
 - 다음으로 2단계 과정에서는, 해당 문제에 적합하도록 선택된 Module들을 변형하여 더 문제에 fit한
   사고 모듈로 바꾸게 됩니다.
 - 마지막으로 3단계 에서는, 이렇게 만들어진 Adapted Modules를 이용하여 Reasoning Structure(추론 구조)를 만들고, 실제 instance 문제를 해결하는 데 사용하게 됩니다.
-![[Pasted image 20240811233956.png]]
+![](https://i.imgur.com/frMiTfG.png)
+
 - 39개의 atomic reasoing modules 참고 
-![[Pasted image 20240811233752.png]]
+![](https://i.imgur.com/5LtX4pU.png)
 
 - 저희의 문제는 이미, '기술 관련 정보성 영상'을 저의 관점으로 정리하는 것으로 정의했기에,
   Adapted Modules을 이미 만들어두었다고 볼 수 있습니다.
@@ -237,7 +237,8 @@ Key Message : 당신의 관점(목적성)을 바탕으로, AI를 적용하고 �
 - 아직까지는, 헷갈리는 부분이 있으실 것 같아 구현 단계에서 짚어가며 보여드리도록 하겠습니다.
 
 - 시각화
-![[Pasted image 20240811234827.png]]
+![](https://i.imgur.com/HsRZubE.png)
+
 ### 5) 구현 개요
 - 아래의 구현 단계는 만들어가며 다소 수정이 필요할 듯
 
